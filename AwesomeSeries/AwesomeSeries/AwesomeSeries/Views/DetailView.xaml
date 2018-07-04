@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="{Binding Title}"
+             x:Class="AwesomeSeries.Views.DetailView">
+    <ContentPage.Content>
+        <StackLayout Grid.Column="0" Grid.Row="0" Margin="20, 20, 20, 20"
+            Orientation="Vertical"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand">
+
+            <Label Text="{Binding ReleaseDate, StringFormat='Lançamento: {0}'}" 
+                   FontSize="Large" TextColor="DarkRed"/>
+
+            <Image Source="{Binding Backdrop}" HeightRequest="240"/>
+
+            <Label Text="{Binding Overview}" FontSize="Medium" TextColor="DarkBlue" 
+                   HorizontalOptions="CenterAndExpand"/>
+            
+            <Label Text="{Binding Votes, StringFormat='Nota: {0}'}" FontSize="Large" TextColor="DarkGreen" 
+                   HorizontalOptions="EndAndExpand"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

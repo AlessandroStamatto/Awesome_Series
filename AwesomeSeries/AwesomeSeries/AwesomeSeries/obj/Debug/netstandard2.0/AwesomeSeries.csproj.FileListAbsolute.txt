@@ -1,0 +1,9 @@
+C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries\bin\Debug\netstandard2.0\AwesomeSeries.deps.json
+C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries\bin\Debug\netstandard2.0\AwesomeSeries.dll
+C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries\bin\Debug\netstandard2.0\AwesomeSeries.pdb
+C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries\obj\Debug\netstandard2.0\AwesomeSeries.csprojAssemblyReference.cache
+C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries\obj\Debug\netstandard2.0\AwesomeSeries.csproj.CoreCompileInputs.cache
+C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries\obj\Debug\netstandard2.0\AwesomeSeries.AssemblyInfoInputs.cache
+C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries\obj\Debug\netstandard2.0\AwesomeSeries.AssemblyInfo.cs
+C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries\obj\Debug\netstandard2.0\AwesomeSeries.dll
+C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries\obj\Debug\netstandard2.0\AwesomeSeries.pdb
