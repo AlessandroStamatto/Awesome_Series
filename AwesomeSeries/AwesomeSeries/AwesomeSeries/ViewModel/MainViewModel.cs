@@ -13,16 +13,27 @@ namespace AwesomeSeries.ViewModel
     {
         readonly ISerieService _serieService;
 
+        public string Search;
+
         public ICommand ItemClickCommand { get; }
 
-        public ObservableCollection<Serie> Items { get; }
+        public ObservableCollection<Serie> Items {
+            get;
+        }
+
+        //new ObservableCollection<Serie>(Items.Where(
+        //      serie => string.IsNullOrEmpty(serie.Name)
+        //    || serie.Name.StartsWith(Search))
+        //   )
 
         public MainViewModel(ISerieService serieService) : base("Awesome Series")
         {
             _serieService = serieService;
 
+            Search = "";
+            
             Items = new ObservableCollection<Serie>();
-
+            
             ItemClickCommand = new Command<Serie>(async(item) 
                 => await ItemClickCommandExecute(item));
         }

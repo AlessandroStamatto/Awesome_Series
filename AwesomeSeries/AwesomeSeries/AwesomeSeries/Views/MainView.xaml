@@ -5,7 +5,16 @@
              Title="Awesome Series!"
              x:Class="AwesomeSeries.Views.MainView">
     <ContentPage.Content>
-        <ListView
+        <StackLayout Grid.Column="0" Grid.Row="0" Margin="10, 10, 10, 10"
+            Orientation="Vertical"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand">
+
+            <Entry Placeholder="🔎 Search for specific series" 
+                   PlaceholderColor="LightBlue" Text="{Binding Search, Mode=TwoWay}"/>
+
+            <ListView
+            
             VerticalOptions="FillAndExpand"
             HorizontalOptions="FillAndExpand"
             HasUnevenRows="True"
@@ -14,27 +23,29 @@
             ItemsSource="{Binding Items}"
             behaviors:AttachedItemTappedBehavior.Command="{Binding ItemClickCommand}">
 
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout
                             Orientation="Horizontal"
                             VerticalOptions="FillAndExpand"
                             HorizontalOptions="FillAndExpand">
 
-                            <Image Source="{Binding Poster}" 
+                                <Image Source="{Binding Poster}" 
                                    VerticalOptions="Start"
                                    HorizontalOptions="Start"
                                    HeightRequest="120" />
-                            <StackLayout>
-                                <Label Text="{Binding Name}" FontSize="Medium" />
-                                <Label Text="{Binding OriginalName}" FontSize="Small" />
+                                <StackLayout>
+                                    <Label Text="{Binding Name}" FontSize="Medium" />
+                                    <Label Text="{Binding OriginalName}" FontSize="Small" />
+                                </StackLayout>
                             </StackLayout>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
 
-        </ListView>
+            </ListView>
+
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
