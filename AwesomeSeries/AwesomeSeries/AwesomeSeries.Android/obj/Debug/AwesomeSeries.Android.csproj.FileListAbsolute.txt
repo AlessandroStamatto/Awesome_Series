@@ -98,7 +98,6 @@ C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeS
 C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries.Android\bin\Debug\AwesomeSeries.Android.dll
-C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries.Android\obj\Debug\linksrc\AwesomeSeries.pdb
 C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries.Android\obj\Debug\linksrc\AwesomeSeries.Android.dll.mdb
 C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\astam\Desktop\Xamarin\pos-up-cross\AwesomeSeries\AwesomeSeries\AwesomeSeries.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

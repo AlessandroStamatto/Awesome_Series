@@ -13,12 +13,10 @@ namespace AwesomeSeries.ViewModel
     {
         readonly ISerieService _serieService;
 
-        public string Search;
-
         public ICommand ItemClickCommand { get; }
 
         public ObservableCollection<Serie> Items {
-            get;
+            get; set;
         }
 
         //new ObservableCollection<Serie>(Items.Where(
@@ -30,10 +28,8 @@ namespace AwesomeSeries.ViewModel
         {
             _serieService = serieService;
 
-            Search = "";
-            
             Items = new ObservableCollection<Serie>();
-            
+
             ItemClickCommand = new Command<Serie>(async(item) 
                 => await ItemClickCommandExecute(item));
         }
@@ -65,5 +61,20 @@ namespace AwesomeSeries.ViewModel
             Items.Clear();
             result.Series.ToList()?.ForEach(serie => Items.Add(serie));
         }
+
+        //public async void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        //{
+        //    if (string.IsNullOrWhiteSpace(e.NewTextValue))
+        //        return;
+
+        //    this.Items = new ObservableCollection<Serie> (this.Items.Where(
+        //      serie => string.IsNullOrEmpty(serie.Name)
+        //    || serie.Name.StartsWith(e.NewTextValue)));
+        
+        //SearchResultListView.BeginRefresh();  // IMPORTANT ***
+        //collection.Items = await weatherService.GetForecastByCityOrCountry(e.NewTextValue);
+        //SearchResultListView.ItemsSource = collection.Items;
+        //SearchResultListView.EndRefresh(); // IMPORTANT ****
+        //}
     }
 }

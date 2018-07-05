@@ -11,10 +11,11 @@
             HorizontalOptions="FillAndExpand">
 
             <Entry Placeholder="🔎 Search for specific series" 
-                   PlaceholderColor="LightBlue" Text="{Binding Search, Mode=TwoWay}"/>
+                   PlaceholderColor="LightBlue"/>
 
             <ListView
-            
+            x:Name="SearchResultListView"
+            IsPullToRefreshEnabled="True"
             VerticalOptions="FillAndExpand"
             HorizontalOptions="FillAndExpand"
             HasUnevenRows="True"
